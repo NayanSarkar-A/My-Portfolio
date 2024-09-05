@@ -18,7 +18,7 @@ body {
 
 /* Header and Navigation */
 header {
-    padding: 20px;
+    padding: 1.25rem;
     background-color: black;
 }
 
@@ -44,7 +44,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 60px;
+    gap: 3.75rem;
     font-size: 0.9rem;
     font-weight: 100;
 }
@@ -107,25 +107,25 @@ nav ul {
 }
 
 .hero-section p {
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 1.5rem;
+    margin: 1.25rem 0;
 }
 
 .hero-section form {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .hero-section input[type="email"] {
-    padding: 10px;
-    width: 250px;
+    padding: 0.625rem;
+    width: 15.625rem;
     border: none;
     border-radius: 5px;
-    margin-right: 10px;
-}
+    margin-right: 0.625rem;
+}   
 
 .hero-section button {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     background-color: #e91e63;
     border: none;
     border-radius: 5px;
@@ -136,33 +136,33 @@ nav ul {
 /* About Me Section */
 .about-me {
     background-color: #181818;
-    padding: 50px 20px;
+    padding: 3.125rem  1.25rem;
 }
 
 .about-me-content {
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .about-me-content img {
     width: 100%;
-    max-width: 300px;
+    max-width: 18.75rem;
     height: auto;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .about-text h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 2.25rem;
+    margin-bottom: 0.625rem;
 }
 
 .about-text h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .about-text .designer {
@@ -170,18 +170,18 @@ nav ul {
 }
 
 .about-text p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.6;
-    max-width: 500px;
+    max-width: 31.25rem;
 }
 
 .talk-btn {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     background-color: #e91e63;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     display: inline-block;
 }
 .read-more-btn:hover {
@@ -191,26 +191,26 @@ nav ul {
 
 .services {
     text-align: center;
-    padding: 50px 20px;
+    padding: 3.125rem 1.25rem;
     background-color: #0f0f0f;
 }
 
 .services h1 {
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
 }
 
 .services-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .service-box {
     background-color: #242424;
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
+    padding: 1.35rem;
+    width: 18.75rem;
+    border-radius: 0.625rem;
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -220,9 +220,9 @@ nav ul {
 }
 
 .service-box .icon i{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 20px;
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-bottom: 1.25rem;
 }
 
 #all-ico{
@@ -231,17 +231,17 @@ nav ul {
 }
 
 .service-box h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .service-box p {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
 }
 
 .read-more-btn {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem ;
     background-color: #e91e63;
     color: #fff;
     text-decoration: none;
@@ -251,17 +251,17 @@ nav ul {
 /* Hire Me Section */
 .hire-me {
     text-align: center;
-    padding: 50px 20px;
+    padding: 3.125rem 1.25rem;
     background-color: #181818;
 }
 
 .hire-me h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
 }
 
 .hire-btn {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     background-color: #e91e63;
     color: #fff;
     text-decoration: none;
@@ -271,24 +271,24 @@ nav ul {
 /* Footer */
 footer {
     text-align: center;
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     background-color: #0f0f0f;
 }
 
 footer h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
 }
 
 footer p {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 0.825rem;
+    margin-bottom: 1.25rem;
 }
 
 .social-icons a img {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
+    width: 1.875rem;
+    height:1.875rem ;
+    margin: 0 0.625rem;
     filter: invert(1); 
 }
 #fa-in-pe-icon{
