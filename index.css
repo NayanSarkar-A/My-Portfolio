@@ -1,0 +1,311 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: #fff;
+    /* font-family: 'Arial', sans-serif; */
+    /* background-color: #181818; */
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    padding: 20px;
+    background-color: black;
+}
+
+nav {
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 1.8rem ;
+}
+
+.logo span {
+    color: #e91e63;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.nav-manu {
+    text-decoration: none;
+    color: #ffffffd0;
+    padding: 4px 8px 4px 8px;
+}
+.nav-manu:hover {
+    border: 0.00000001px solid #e91e63;
+}
+
+.subscribe-btn {
+    padding: 4px 8px 4px 8px;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+/* Hero Section */
+.hero-section {
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    background-color: black; 
+}
+.hero-section-about-me{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    margin-top: 6rem;
+}
+.hero-section-my-pic{
+    width: 55vw;
+    border: 1px solid white;
+    /* background-size: cover; */
+}
+#hello{
+    font-size: 0.7rem;
+    word-spacing: 4px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero-section .name-highlight {
+    color: #fff;
+}
+
+.hero-section .red-text {
+    color: #e91e63;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero-section form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.hero-section input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hero-section button {
+    padding: 10px 20px;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #181818;
+    padding: 50px 20px;
+}
+
+.about-me-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-me-content img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-text .designer {
+    color: #e91e63;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.talk-btn {
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.read-more-btn:hover {
+    color: #e91e63;
+    background-color: white;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0f0f0f;
+}
+
+.services h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #242424;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box .icon i{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#all-ico{
+    font-size: 3rem;
+    color: #e91e63;
+}
+
+.service-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hire Me Section */
+.hire-me {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #181818;
+}
+
+.hire-me h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hire-btn {
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #0f0f0f;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    filter: invert(1); 
+}
+#fa-in-pe-icon{
+    font-size: 1.5rem;
+    color: #e91e63;
+    padding: 0.5rem;
+}
+.facebook{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#fa-in-pe-icon{
+    color: #e91e63;
+
+}
+#fa-in-pe-icon:hover{
+    color: white;
+}
