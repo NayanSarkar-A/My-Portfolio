@@ -1,0 +1,371 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #0f0f0f;
+    padding: 20px;
+}
+/* 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.subscribe-btn {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#de{
+    color: #fff;
+}
+.nav-all:hover{
+    color: #e91e63;
+} */
+
+
+nav {
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 1.8rem ;
+}
+
+.logo span {
+    color: #e91e63;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3.75rem;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.nav-manu {
+    text-decoration: none;
+    color: #ffffffd0;
+    padding: 4px 8px 4px 8px;
+}
+.nav-manu:hover {
+    border: 0.00000001px solid #e91e63;
+}
+
+.subscribe-btn {
+    padding: 4px 8px 4px 8px;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0f0f0f;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-img img {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.about-text {
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+.about-text h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.about-btn {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-img {
+        margin-bottom: 30px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
+
+/* Sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Self Introduction Section */
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #222;
+}
+
+.intro-img img {
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.intro-text h1 {
+    font-size: 48px;
+    color: #ff5e63;
+    margin-bottom: 10px;
+}
+
+.intro-text h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #dddddd;
+    line-height: 1.6;
+}
+
+/* Education Section */
+.education-section {
+    background-color: #1f1f1f;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.education-section h2 {
+    font-size: 36px;
+    color: #ff5e63;
+    margin-bottom: 20px;
+}
+
+.education-details p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+/* Schooling Section */
+.schooling-section {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.schooling-section h2 {
+    font-size: 36px;
+    color: #ff5e63;
+    margin-bottom: 20px;
+}
+
+.schooling-section p {
+    font-size: 18px;
+    color: #dddddd;
+}
+
+/* Additional Skills Section */
+.skills-section {
+    background-color: #1f1f1f;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 36px;
+    color: #ff5e63;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    font-size: 18px;
+    color: #dddddd;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    color: #ff5e63;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.contact-section a {
+    color: #ff5e63;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    filter: invert(100%);
+}
+/* hire me section */
+.hire-me {
+    text-align: center;
+    padding: 3.125rem 1.25rem;
+    background-color: #181818;
+}
+
+.hire-me h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.hire-btn {
+    padding: 0.625rem 1.25rem;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.read-more-btn:hover {
+    color: #e91e63;
+    background-color: white;
+}
+.read-more-btn {
+    padding: 0.625rem 1.25rem ;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.875rem 1.25rem;
+    background-color: #0f0f0f;
+}
+
+footer h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+footer p {
+    font-size: 0.825rem;
+    margin-bottom: 1.25rem;
+}
+
+.social-icons a img {
+    width: 1.875rem;
+    height:1.875rem ;
+    margin: 0 0.625rem;
+    filter: invert(1); 
+}
+#fa-in-pe-icon{
+    font-size: 1.5rem;
+    color: #e91e63;
+    padding: 0.5rem;
+}
+.facebook{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#fa-in-pe-icon{
+    color: #e91e63;
+
+}
+#fa-in-pe-icon:hover{
+    color: white;
+}
+

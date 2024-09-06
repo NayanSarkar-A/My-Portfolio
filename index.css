@@ -70,6 +70,7 @@ nav ul {
 /* Hero Section */
 .hero-section {
     height: 70vh;
+    width: 95vw;
     display: flex;
     text-align: center;
     background-color: black; 
