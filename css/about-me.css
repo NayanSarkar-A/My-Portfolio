@@ -15,53 +15,24 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #0f0f0f;
-    padding: 20px;
+    /* padding: 1.25rem; */
+    background-color: black;
 }
-/* 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.subscribe-btn {
-    background-color: #e91e63;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-}
-#de{
-    color: #fff;
-}
-.nav-all:hover{
-    color: #e91e63;
-} */
-
 
 nav {
     height: 2.5rem;
+    width: 97vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* justify-content: center; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+    padding: 15px 3px;
+    z-index: 999;
+    background-color: black;
+    box-shadow: 20px 20px 30px rgba(rgba(247, 244, 244, 0.911));
 }
 
 .logo {

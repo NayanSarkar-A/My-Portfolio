@@ -4,30 +4,40 @@
     padding: 0;
     border: border-box;
 }
-
 /* Body Styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #181818;
     color: #fff;
-    /* font-family: 'Arial', sans-serif; */
-    /* background-color: #181818; */
     color: #fff;
     line-height: 1.6;
 }
-
 /* Header and Navigation */
 header {
-    padding: 1.25rem;
     background-color: black;
 }
-
 nav {
     height: 2.5rem;
+    width: 98vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* justify-content: center; */
+    padding: 15px 3px;
+    z-index: 999;
+    background-color: black;
+    box-shadow: 0 5px 15px rgba(248, 247, 247, 0.1) ;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+}
+.logo ul li{
+    position: relative;
+}
+.nav-manu.active,
+.nav-manu:hover
+{
+    color: #e91e63;
 }
 
 .logo {
@@ -36,11 +46,9 @@ nav {
     color: #fff;
     margin-left: 1.8rem ;
 }
-
 .logo span {
     color: #e91e63;
 }
-
 nav ul {
     list-style: none;
     display: flex;
@@ -48,16 +56,12 @@ nav ul {
     font-size: 0.9rem;
     font-weight: 100;
 }
-
 .nav-manu {
     text-decoration: none;
     color: #ffffffd0;
     padding: 4px 8px 4px 8px;
+    transition: 0.5s ease;
 }
-.nav-manu:hover {
-    border: 0.00000001px solid #e91e63;
-}
-
 .subscribe-btn {
     padding: 4px 8px 4px 8px;
     background-color: #e91e63;
@@ -65,8 +69,6 @@ nav ul {
     text-decoration: none;
     border-radius: 6px;
 }
-
-
 /* Hero Section */
 .hero-section {
     height: 70vh;
@@ -92,31 +94,25 @@ nav ul {
     font-size: 0.7rem;
     word-spacing: 4px;
 }
-
 .hero-section h1 {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
 }
-
 .hero-section .name-highlight {
     color: #fff;
 }
-
 .hero-section .red-text {
     color: #e91e63;
 }
-
 .hero-section p {
     font-size: 1.5rem;
     margin: 1.25rem 0;
 }
-
 .hero-section form {
     display: inline-block;
     margin-top: 1.25rem;
 }
-
 .hero-section input[type="email"] {
     padding: 0.625rem;
     width: 15.625rem;
@@ -124,7 +120,6 @@ nav ul {
     border-radius: 5px;
     margin-right: 0.625rem;
 }   
-
 .hero-section button {
     padding: 0.625rem 1.25rem;
     background-color: #e91e63;
@@ -133,13 +128,11 @@ nav ul {
     color: #fff;
     cursor: pointer;
 }
-
 /* About Me Section */
 .about-me {
     background-color: #181818;
     padding: 3.125rem  1.25rem;
 }
-
 .about-me-content {
     max-width: 62.5rem;
     margin: 0 auto;
@@ -148,34 +141,28 @@ nav ul {
     align-items: center;
     gap: 1.875rem;
 }
-
 .about-me-content img {
     width: 100%;
     max-width: 18.75rem;
     height: auto;
     border-radius: 0.625rem;
 }
-
 .about-text h2 {
     font-size: 2.25rem;
     margin-bottom: 0.625rem;
 }
-
 .about-text h3 {
     font-size: 1.5rem;
     margin-bottom: 1.25rem;
 }
-
 .about-text .designer {
     color: #e91e63;
 }
-
 .about-text p {
     font-size: 1rem;
     line-height: 1.6;
     max-width: 31.25rem;
 }
-
 .talk-btn {
     padding: 0.625rem 1.25rem;
     background-color: #e91e63;
@@ -189,24 +176,20 @@ nav ul {
     color: #e91e63;
     background-color: white;
 }
-
 .services {
     text-align: center;
     padding: 3.125rem 1.25rem;
     background-color: #0f0f0f;
 }
-
 .services h1 {
     font-size: 2.25rem;
     margin-bottom: 2.5rem;
 }
-
 .services-container {
     display: flex;
     justify-content: center;
     gap: 1.25rem;
 }
-
 .service-box {
     background-color: #242424;
     padding: 1.35rem;
@@ -215,32 +198,26 @@ nav ul {
     text-align: center;
     transition: transform 0.3s ease;
 }
-
 .service-box:hover {
     transform: translateY(-10px);
 }
-
 .service-box .icon i{
     width: 3.125rem;
     height: 3.125rem;
     margin-bottom: 1.25rem;
 }
-
 #all-ico{
     font-size: 3rem;
     color: #e91e63;
 }
-
 .service-box h2 {
     font-size: 1.5rem;
     margin-bottom: 0.625rem;
 }
-
 .service-box p {
     font-size: 0.875rem;
     margin-bottom: 1.25rem;
 }
-
 .read-more-btn {
     padding: 0.625rem 1.25rem ;
     background-color: #e91e63;
@@ -248,19 +225,16 @@ nav ul {
     text-decoration: none;
     border-radius: 5px;
 }
-
 /* Hire Me Section */
 .hire-me {
     text-align: center;
     padding: 3.125rem 1.25rem;
     background-color: #181818;
 }
-
 .hire-me h2 {
     font-size: 1.75rem;
     margin-bottom: 1.25rem;
 }
-
 .hire-btn {
     padding: 0.625rem 1.25rem;
     background-color: #e91e63;
@@ -268,24 +242,20 @@ nav ul {
     text-decoration: none;
     border-radius: 5px;
 }
-
 /* Footer */
 footer {
     text-align: center;
     padding: 1.875rem 1.25rem;
     background-color: #0f0f0f;
 }
-
 footer h3 {
     font-size: 1.25rem;
     margin-bottom: 0.625rem;
 }
-
 footer p {
     font-size: 0.825rem;
     margin-bottom: 1.25rem;
 }
-
 .social-icons a img {
     width: 1.875rem;
     height:1.875rem ;
